@@ -16,7 +16,7 @@ pip install discord
 
 pip install requests
 
-git clone
+git clone https://github.com/CurvixSsH/ip-look.git
 
 cd ip-look
 
