@@ -8,7 +8,7 @@ Este código es un bot de Discord que permite buscar información sobre una dire
 -Crear un bot de discord e invitalo a tu servidor, luego obten el token del bot y remplazalo en la /linea 83 del codigo 
 (TOKEN_BOT) https://discord.com/developers/applications
 
--En la las /lineas (17/24/56) debes remplazar la ruta por la que instalaste el repositorio par el funcionamiento de la base de datos.txt alfinal debe ir host.txt como se especifica con mas detalle en el codigo mismo.
+-En la las /lineas (17/24/56) debes remplazar la ruta por la que instalaste el repositorio para el funcionamiento de la base de datos.txt alfinal de la ruta debe ir host.txt como se especifica con mas detalle en el codigo mismo.
 
 # INSTALACION
 
