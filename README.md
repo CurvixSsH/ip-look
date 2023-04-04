@@ -34,8 +34,11 @@ Los comandos deben ejecutarse en el canal de discord con el bot
 
 #IMAGENES 
 
+Ejecutar desde terminal para activar el bot
+
 ![imagen_2023-04-04_123739820](https://user-images.githubusercontent.com/127477293/229887310-f38f6c9d-16c6-4f0c-9236-1eae3dd4ec77.png)
 
+Comandos del bot
 
 ![imagen_2023-04-04_124408500](https://user-images.githubusercontent.com/127477293/229888950-cffe8b86-665a-4c0e-a567-c0ab80a7aadf.png)
 
