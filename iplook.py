@@ -2,13 +2,10 @@ import discord
 from discord.ext import commands
 import requests
 
-intents = discord.Intents.default()
-intents.typing = False
-intents.presences = False
-
+intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-API_KEY = 'APY-KEY' # Reemplaza con tu clave API de (ipgeolocation.io) https://ipgeolocation.io
+API_KEY = 'APY_KEY' # Reemplaza con tu clave API de (ipgeolocation.io) https://ipgeolocation.io
 
 # Aquí definimos la función para guardar las IP con un nombre en el archivo host.txt
 """ La función recibe 2 argumentos: el nombre y la dirección IP,
@@ -32,8 +29,10 @@ def search_ip(name):
 utilizando las claves correspondientes en el diccionario json_data
 La información extraída incluye el nombre del país, la ciudad, el proveedor de servicios de Internet (ISP), la latitud y longitud de la ubicación. 
 También se genera un enlace de comprobación de host utilizando la dirección IP especificada """
+
 @bot.command(name="ip")
 async def ip_command(ctx, address):
+    print(f"Comando recibido: {ctx.message.content}")
     api_url = f'https://api.ipgeolocation.io/ipgeo?apiKey={API_KEY}&ip={address}'
                 
 
@@ -68,19 +67,21 @@ async def ip_command(ctx, address):
 # Comando para guardar IP
 @bot.command(name="host")
 async def host_command(ctx, name, address):
+    print(f"Comando recibido: {ctx.message.content}")
     save_ip(name, address)
     await ctx.send(f"La dirección IP {address} ha sido guardada con el nombre {name}.")
 
 # Comando para buscar una  IP por su nombre
 @bot.command(name="search")
 async def search_command(ctx, name):
+    print(f"Comando recibido: {ctx.message.content}")
     address = search_ip(name)
     if address:
         await ctx.send(f"La dirección IP para {name} es: {address}")
     else:
         await ctx.send(f"No se encontró ninguna dirección IP con el nombre {name}.")
 
-bot.run('BOT-TOKEN') # Inserta tu token de bot de Discord EJEMPLO: bot.run('847hd38y4hd38hy834hd83h4d83h')
+bot.run('BOT_TOKEN') # Inserta tu token de bot de Discord 
  # https://discord.com/developers/applications
 
  
