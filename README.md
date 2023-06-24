@@ -3,7 +3,7 @@ Este código es un bot de Discord que permite buscar información sobre una dire
 
 # API IPGEO Y TOKEN BOT DISCORD
 
--Crear cuenta en ipgeo y obten tu clave API, luego remplazala en el codigo. /linea 11 (API_KEY) https://ipgeo.io
+-Crear cuenta en ipgeo y obten tu clave API, luego remplazala en el codigo. /linea 8 (API_KEY) https://ipgeo.io
 
 -Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot y remplazalo en la /linea 84 del codigo 
 (TOKEN_BOT) https://discord.com/developers/applications
