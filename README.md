@@ -8,7 +8,7 @@ Este código es un bot de Discord que permite buscar información sobre una dire
 -Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot 
 (TOKEN_BOT) https://discord.com/developers/applications y añadelo a config.py
 
-#CONFIG.PY
+# CONFIG.PY
 
 API_KEY = 'tu_clave_de_api'
 
