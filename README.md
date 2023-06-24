@@ -36,9 +36,7 @@ Los comandos deben ejecutarse en el canal de discord con el bot
 
 /help
 
-#IMAGENES 
-
-Ejecutar desde terminal para activar el bot
+# IMAGENES 
 
 ![imagen_2023-06-24_173439332](https://github.com/CurvixSsH/ip-look/assets/127477293/02b498fd-d3a8-49c0-b843-b72d39ae9c06)
 
