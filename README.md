@@ -3,12 +3,16 @@ Este código es un bot de Discord que permite buscar información sobre una dire
 
 # API IPGEO Y TOKEN BOT DISCORD
 
--Crear cuenta en ipgeo y obten tu clave API, luego remplazala en el codigo. /linea 8 (API_KEY) https://ipgeo.io
+-Crear cuenta en ipgeo y obten tu clave API, (API_KEY) https://ipgeo.io y añadalo a config.py
 
--Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot y remplazalo en la /linea 84 del codigo 
-(TOKEN_BOT) https://discord.com/developers/applications
+-Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot 
+(TOKEN_BOT) https://discord.com/developers/applications y añadelo a config.py
 
-Las ip se iran guardando en el archivo .txt (Host.txt) 
+#CONFIG.PY
+
+API_KEY = 'tu_clave_de_api'
+
+BOT_TOKEN = 'tu_token_de_discord'
 
 # INSTALACION
 
@@ -26,18 +30,21 @@ Los comandos deben ejecutarse en el canal de discord con el bot
 
 /ip 192.168.1.17  (esto buscara informacion de esa direccion ip)
 
-/host ip_privada 192.168.1.17  (esto guardara esa direccion ip con ese nombre)
+/label Nombre 192.168.1.17  (esto guardara esa direccion ip con ese nombre)
 
-/search ip_privada  (esto buscara la direccion ip por el nombre)
+/search Nombre  (esto buscara la direccion ip por el nombre)
+
+/help
 
 #IMAGENES 
 
 Ejecutar desde terminal para activar el bot
 
-![imagen_2023-04-04_123739820](https://user-images.githubusercontent.com/127477293/229887310-f38f6c9d-16c6-4f0c-9236-1eae3dd4ec77.png)
+![imagen_2023-06-24_173439332](https://github.com/CurvixSsH/ip-look/assets/127477293/02b498fd-d3a8-49c0-b843-b72d39ae9c06)
 
-Comandos del bot
+![ip-look2](https://github.com/CurvixSsH/ip-look/assets/127477293/afdd868d-8976-4186-acef-3e29a8c108c0)
 
-![imagen_2023-04-04_124408500](https://user-images.githubusercontent.com/127477293/229888950-cffe8b86-665a-4c0e-a567-c0ab80a7aadf.png)
+![imagen_2023-06-24_175330277](https://github.com/CurvixSsH/ip-look/assets/127477293/7b87ae9f-f20f-4682-a09d-ca0395936769)
+
 
 
