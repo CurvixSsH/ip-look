@@ -12,13 +12,11 @@ Las ip se iran guardando en el archivo .txt (Host.txt)
 
 # INSTALACION
 
-pip install discord
-
-pip install requests
-
 git clone https://github.com/CurvixSsH/ip-look.git
 
 cd ip-look
+
+pip3 install -r requirements.txt
 
 python iplook.py
 
