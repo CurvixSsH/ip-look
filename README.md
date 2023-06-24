@@ -5,10 +5,10 @@ Este código es un bot de Discord que permite buscar información sobre una dire
 
 -Crear cuenta en ipgeo y obten tu clave API, luego remplazala en el codigo. /linea 11 (API_KEY) https://ipgeo.io
 
--Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot y remplazalo en la /linea 83 del codigo 
+-Crear un bot de discord y añadelo a tu servidor, luego obten el token del bot y remplazalo en la /linea 84 del codigo 
 (TOKEN_BOT) https://discord.com/developers/applications
 
--En la las /lineas (17/24/56) debes remplazar la ruta por la que instalaste el repositorio para el funcionamiento de la base de datos.txt alfinal de la ruta debe ir host.txt como se especifica con mas detalle en el codigo mismo.
+Las ip se iran guardando en el archivo .txt (Host.txt) 
 
 # INSTALACION
 
