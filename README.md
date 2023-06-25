@@ -38,7 +38,7 @@ Los comandos deben ejecutarse en el canal de discord con el bot
 
 # IMAGENES 
 
-![imagen_2023-06-24_173439332](https://github.com/CurvixSsH/ip-look/assets/127477293/02b498fd-d3a8-49c0-b843-b72d39ae9c06)
+![imagen_2023-06-24_180249201](https://github.com/CurvixSsH/ip-look/assets/127477293/08c6d33c-70a0-40b6-8fe1-844e5257b727)
 
 ![ip-look2](https://github.com/CurvixSsH/ip-look/assets/127477293/afdd868d-8976-4186-acef-3e29a8c108c0)
 
