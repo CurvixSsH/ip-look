@@ -28,11 +28,11 @@ python iplook.py
 
 Los comandos deben ejecutarse en el canal de discord con el bot 
 
-/ip 192.168.1.17  (esto buscara informacion de esa direccion ip)
+/ip host  (esto buscara informacion de esa direccion ip)
 
-/label Nombre 192.168.1.17  (esto guardara esa direccion ip con ese nombre)
+/label nombre 192.168.1.17  (esto guardara esa direccion ip con ese nombre)
 
-/search Nombre  (esto buscara la direccion ip por el nombre)
+/search nombre  (esto buscara la direccion ip por el nombre)
 
 /help
 
